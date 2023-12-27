@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://kit.fontawesome.com/f1ef5ec1ba.js" crossorigin="anonymous"></script>
+<body>
+<div id="header">
+<div class="container">
+<nav>
+  <img src="Logo2.jpg" class="logo">
+  <ul id="sidemenu">
+    <li><a href="#header"> Home </a> </li>
+    <li><a href="#about"> About</a> </li>
+    <li><a href="#services">Services</a> </li> 
+    <li><a href="#portfolio">Portfolio</a> </li>
+    <li><a href="#contact">contact</a> </li> 
+    <i class="fas fa-times" onclick="closemenu()"></i>
+  </ul>
+  <i class="fas fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+  <p> Web Designer</p>
+  <h1> Hi , I'm <span>Satyam</span><br>from Sagar</h1>
+</div>
+</div>
+</div>   
+ <div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="user.png"> 
+      </div>
+      <div class="about-col-2"> 
+        <h1 class="sub-title">About me </h1>
+        <p>Hello, I'm Satyam Pyasi, a passionate student at the Hari Singh Gour Center, University, <br>specializing in Computer Science. <br>I find joy in the intricate world of coding and mathematics. Currently residing in Sagar,<br> my roots trace back to the charming town of Panna. 🚀✨</p>
+      <div class="tab-titles">
+        <p class="tab-links active-link" onclick ="opentab('skills')"> Skills</p>
+        <p class="tab-links" onclick="opentab('experiance')"> Experience</p>
+        <p class="tab-links" onclick="opentab('education')"> Education</p>
+      </div>
+
+      <div class="tab-contents active-tab" id="skills"> 
+        <ul>
+          <li><span>UI/ux</span><br> Designing Web/App interface</li>
+          <li><span>Web Development</span> <br>Web app Development</li>
+          <li><span>App Development</span> <br>Building Android/ios aaps </li>
+        </ul>
+      </div> 
+      <div class="tab-contents" id="experiance">
+        <ul> 
+          <li><span>Sep2023-Nov2023</span><br></li>
+          <li>Exceled as a dynamic web developer intern at @SoftSeekersInfotech Pvt. Ltd.<br> from Sep to Nov 2023,<br> contributing innovative solutions <br> enhancing web development prowess.</li>
+
+        </ul>
+      </div> 
+      <div class="tab-contents" id="education">
+        <ul>
+          <li><span>2018 (10th)  </span><br> Jawahar navodaya vidhyalaya </li>
+          <li><span>2021 (12th)</span> <br>Jawahar navodaya vidhyalaya</li>
+          <li><span>2024 (BCA) </span> <br>Dr.Harising Gour Central University  </li>
+        </ul>
+      </div>    
+      </div>
+    </div>
+  </div>
+ </div>
+ <!------sevice----->
+ <div id="services">  
+  <div class="container">
+    <h1 class="sub-title"> My services</h1> 
+    <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Step into the realm of web design, where I transform concepts into visually striking and technically sound websites. Armed with a fervor for coding and a keen design sensibility, I excel in shaping distinctive online encounters crafted to suit your requirements. Be it sculpting refined user interfaces or ensuring fluid navigation, my web design philosophy centers on presenting not merely a website, but a digital work of art. Whether embarking on a fresh endeavor or contemplating a makeover for an existing site, let's embark on this digital journey together. </p>
+        <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>I'm a dedicated developer with a passion for crafting distinctive and user-friendly mobile experiences. My expertise lies in the realm of app design, where each project receives a creative infusion and meticulous attention to detail. Whether you're initiating a new app or refining the interface of an existing one, I bring a personalized approach to every task. My objective is to seamlessly merge aesthetics with functionality, offering users a captivating and delightful journey within your app.</p>
+        <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>UI & UX Design</h2>
+          <p>I'm a passionate UI/UX designer dedicated to creating visually appealing and user-friendly experiences. With a keen eye for design aesthetics and a focus on user needs, I strive to bring a perfect blend of functionality and beauty to every project. Let's collaborate to turn ideas into engaging and seamless digital experiences."</p>
+        <a href="#">Learn more</a>
+        </div>
+    </div> 
+  </div>
+ </div>  
+ <!------porfolio------>
+ <div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My work </h1>
+    <div class="work-list">
+    <div class="work"> 
+      <img src="Work4.jpg">
+      <div class="layer">
+        <h3>Amazone Clone Page  </h3>
+        <p>Creating an Amazon page clone involves a comprehensive set of skills,<br> including frontend and backend development, database management, and design proficiency. Utilized HTML, CSS, and JavaScript for <br>the frontend, incorporating responsive design principles.</p>
+     <a href="#"><i class="fa-solid fa-link"></i></a>
+      </div>
+    </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+     </div>
+ </div>
+ <!--------contact-------->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1> Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>satyampyasi565@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i>9770926390</p>
+        <div class="social-icons">
+          <a href=""> <i class="fa-brands fa-square-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href="G:\My Drive\Web Developer CV Resume.pdf"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="Web Developer CV Resume.pdf"Download class ="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+      <form name="submit-to-google-sheet"> 
+        <input type="text" name="Name" placeholder="Your Name" required>
+      <input type="email" name="Email"Placeholder="Your Email" required>
+      <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+      <button type="submit" class="btn btn2">Submit</button>
+      </form>
+      <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+     <p> copyright $ .<i class="fa-solid fa-basketball"></i> falling down is not always losing </p>
+  </div>
+ </div>
+ <script> 
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents")
+function opentab(tabname){
+  for(tablink of tablinks){
+  tablink.classList.remove("active-link");
+  }
+for(tabcontent of tabcontents){
+  tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+ </script>
+ <script>
+  var sidemenu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right="0";
+  }
+  function closemenu(){
+    sidemenu.style.right="-200px"; 
+  }
+ </script>
+ <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxlDsedkY8OIZn_WMNfzi25w2HBf3U-2Q2soq1FWv9s5m3BkWXE5p-1emvqiXmwu8Vv/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => { 
+        msg.innerHTML="Message send successfully"
+        setTimeout (function(){
+         msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
